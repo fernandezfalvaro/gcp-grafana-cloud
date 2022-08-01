@@ -1,9 +1,9 @@
 # GCP authentication file
-variable "gcp_auth_file" {
-  type        = string
-  description = "GCP authentication file"
-  default     = "./terraform.json"
-}
+#variable "gcp_auth_file" {
+#  type        = string
+#  description = "GCP authentication file"
+#  default     = "./terraform.json"
+#}
 
 # define GCP region
 variable "gcp_region" {
@@ -22,6 +22,6 @@ variable "gcp_zone" {
 # define GCP project name
 variable "gcp_project" {
   type        = string
-  description = "GCP project name"
-  default     = ""
+  description = "GCP project ID"
+  default     = "grafana-cloud-358115"
 }
