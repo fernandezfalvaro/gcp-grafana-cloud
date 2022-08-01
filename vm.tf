@@ -1,10 +1,10 @@
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
+  name         = "grafana-cloud"
   machine_type = "e2-micro"
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "ubuntu-2004-lts"
     }
   }
 
