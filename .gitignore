@@ -1,0 +1,7 @@
+# Terraform
+.terraform/**
+.terraform**
+terraform.json
+
+# Github
+**/atlantis.pem
